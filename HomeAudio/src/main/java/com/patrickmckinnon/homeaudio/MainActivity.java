@@ -39,12 +39,12 @@ public class MainActivity extends Activity {
     private static final Speaker OFFICE = new Speaker("Office", 1, -500, -150);
 
     private static final Receiver RX_A1000 = new Receiver(
-        "192.168.1.79", "RX-A1000",
+        "192.168.0.195", "RX-A1000", // CL-1A5C2, 00:A0:DE:71:A5:C2
         new Input[] { AV1, AV2 },
         new Speaker[] { MASTER, BATHROOM }
     );
     private static final Receiver R_N500 = new Receiver(
-        "192.168.1.77", "R-N500",
+        "192.168.0.24", "R-N500", // 00:A0:DE:A4:26:D4
         new Input[] { COAXIAL1 },
         new Speaker[] { OFFICE }
     );
